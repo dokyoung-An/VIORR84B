@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: ??? ???? VIORR 84B-ph-??.ggsk
-// Generated 2025-01-06T23:00:24
+// Generated 2025-01-06T23:15:55
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_minimap_button', 2, false, { ignoreInState: 0  });
@@ -4227,22 +4227,22 @@ function pano2vrSkin(player,base) {
 			if (
 				(
 					((player.getVariableValue('vis_daynight_button') == false)) && 
-					((player._(me.ggUserdata.description) == "\uce68\uc2e41")) && 
+					((player._(me.ggUserdata.description) == "\uce68\uc2e41\uc695\uc2e4")) && 
 					((me.ggUserdata.tags.indexOf("\uac00\uad6cON") != -1)) && 
 					((me.ggUserdata.tags.indexOf("\ub0ae") != -1))
 				)
 			) {
-				player.openNext("{node50}","$(cur)");
+				player.openNext("{node47}","$(cur)");
 			}
 			if (
 				(
-					((player._(me.ggUserdata.description) == "\uce68\uc2e41")) && 
+					((player._(me.ggUserdata.description) == "\uce68\uc2e41\uc695\uc2e4")) && 
 					((player.getVariableValue('vis_daynight_button') == false)) && 
 					((player.getVariableValue('vis_furniture_button') == false)) && 
 					((me.ggUserdata.tags.indexOf("\ub0ae") != -1))
 				)
 			) {
-				player.openNext("{node70}","$(cur)");
+				player.openNext("{node67}","$(cur)");
 			}
 			if (
 				(
